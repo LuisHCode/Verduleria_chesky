@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Órdenes</title>
+  <link rel="stylesheet" href="/src/GUI/style_servidor.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Gestión de Órdenes</h2>
+    <div class="field">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Ingrese nombre del cliente">
+    </div>
+    <div class="field">
+      <button id="addClientButton">Ingresar Cliente</button>
+    </div>
+    <div class="field">
+      <h3>Órdenes Hechas</h3>
+      <textarea readonly></textarea>
+    </div>
+  </div>
+  <script src="/src/Logica/script_servidor.js"></script>
+</body>
+</html>
